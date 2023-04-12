@@ -27,7 +27,7 @@ private:
 
 public:
 	void InputMK();
-	void InputMK();
+	void TampilMK();
 
 };
 
@@ -38,4 +38,10 @@ void Matakuliah::InputMK() {
 	cin >> namamk;
 	cout << "Masukkan Sks Mata Kuliah : ";
 	cin >> sks;
+}
+
+void Matakuliah::TampilMK() {
+	cout << "\nKode : " << kode << endl;
+	cout << "Nama MataKuliah : " << namamk << endl;
+	cout << "Jumlah SKS : " << sks << endl;
 }
